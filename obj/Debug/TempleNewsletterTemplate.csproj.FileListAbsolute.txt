@@ -1,1 +1,22 @@
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\TempleNewsletterTemplate\bin\Debug\TempleNewsletterTemplate.exe.config
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleTemplate.Properties.Resources.resources
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleNewsletterTemplate.csproj.GenerateResource.Cache
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Temple Newsletter Generator.exe.config
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Temple Newsletter Generator.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Temple Newsletter Generator.pdb
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Rtf2Html.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Rtf2Xml.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Itenso.Rtf.Parser.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Itenso.Rtf.Interpreter.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Itenso.Rtf.Converter.Html.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Itenso.Sys.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Itenso.Rtf.Converter.Xml.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\log4net.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit-console-runner.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit.framework.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit.util.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit.core.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleNewsletterTemplate.csprojResolveAssemblyReference.cache
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleTemplate.Form1.resources
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.pdb

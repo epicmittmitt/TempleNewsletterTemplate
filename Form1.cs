@@ -15,6 +15,15 @@ namespace TempleTemplate
 		public Form1()
 		{
 			InitializeComponent();
+
+			eventAdd.Click += EventAdd_Click;
+
+			dateBox.Value = DateTime.Now;
+		}
+
+		private void EventAdd_Click(object sender, EventArgs e)
+		{
+			eventEditor.Enabled = true;
 		}
 	}
 }

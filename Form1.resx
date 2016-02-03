@@ -117,41 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="font_italic" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\font_italic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="font_fgcolor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\font_fgcolor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LeftJustify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\LeftJustify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CenterJustify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CenterJustify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="font_underline" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\font_underline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="font_bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\font_bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="paragraph_numbered" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paragraph_numbered.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="RtfToHtml" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RtfToHtml.zip;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RightJustify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RightJustify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="font_strike" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\font_strike.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="paragraph_bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\paragraph_bullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="font_bgcolor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\font_bgcolor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

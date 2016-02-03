@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>TempleTemplate</RootNamespace>
-    <AssemblyName>TempleNewsletterTemplate</AssemblyName>
+    <AssemblyName>Temple Newsletter Generator</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Rtf2Html">
+      <HintPath>..\..\..\Downloads\RtfConverter_v1.7.0\bin\Release\Rtf2Html.exe</HintPath>
+    </Reference>
+    <Reference Include="Rtf2Xml">
+      <HintPath>..\..\..\Downloads\RtfConverter_v1.7.0\bin\Release\Rtf2Xml.exe</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +71,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -72,9 +82,43 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\RtfToHtml.zip" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LeftJustify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CenterJustify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RightJustify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph_bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paragraph_numbered.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_italic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_underline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_strike.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_fgcolor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font_bgcolor.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
