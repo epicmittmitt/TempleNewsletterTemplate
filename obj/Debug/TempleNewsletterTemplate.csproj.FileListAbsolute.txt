@@ -20,3 +20,19 @@ C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleNewsletterT
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleTemplate.Form1.resources
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.exe
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.pdb
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleTemplate.Form2.resources
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Awesomium.Core.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Awesomium.Windows.Forms.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Awesomium.Core.xml
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Awesomium.Windows.Forms.xml
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\awesomium.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\icudt.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\avcodec-53.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\avformat-53.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\avutil-51.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\libEGL.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\libGLESv2.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\awesomium_process
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\inspector.pak
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\xinput9_1_0.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\pdf_js.pak

@@ -71,6 +71,83 @@ namespace TempleTemplate.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;br /&gt;
+        ///        &lt;div id=&quot;closing&quot;&gt;.
+        /// </summary>
+        internal static string closing1 {
+            get {
+                return ResourceManager.GetString("closing1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;/div&gt;
+        ///    &lt;/div&gt;
+        ///&lt;/body&gt;
+        ///&lt;/html&gt;.
+        /// </summary>
+        internal static string closing2 {
+            get {
+                return ResourceManager.GetString("closing2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;br /&gt;
+        ///        &lt;div style=&quot;display: inline-block;
+        ///                    width: 100%;&quot;&gt;
+        ///            &lt;div id=&quot;event-heading&quot;
+        ///                 style=&quot;background: linear-gradient(to right, rgba(162, 50, 4, 1), rgba(162, 50, 4, 0));
+        ///                        padding: 5px;&quot;&gt;
+        ///                &lt;h2&gt;.
+        /// </summary>
+        internal static string event1 {
+            get {
+                return ResourceManager.GetString("event1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;/h2&gt;
+        ///            &lt;/div&gt;
+        ///            &lt;div style=&quot;float: left;
+        ///                        padding: 5px 5px 0px 0px&quot;&gt;
+        ///                &lt;img id=&quot;event-img&quot;
+        ///                     src=&quot;.
+        /// </summary>
+        internal static string event2 {
+            get {
+                return ResourceManager.GetString("event2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;
+        ///                     style=&quot;width: 150px;&quot; /&gt;
+        ///            &lt;/div&gt;
+        ///            &lt;div id=&quot;event-text&quot;
+        ///                 style=&quot;padding: 5px;
+        ///                 float: left;
+        ///                 width: 600px;&quot;&gt;.
+        /// </summary>
+        internal static string event3 {
+            get {
+                return ResourceManager.GetString("event3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;/div&gt;
+        ///        &lt;/div&gt;
+        ///        &lt;br /&gt;.
+        /// </summary>
+        internal static string event4 {
+            get {
+                return ResourceManager.GetString("event4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap font_bgcolor {
@@ -131,6 +208,35 @@ namespace TempleTemplate.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;!DOCTYPE html&gt;
+        ///
+        ///&lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+        ///&lt;head&gt;
+        ///    &lt;meta charset=&quot;utf-8&quot; /&gt;
+        ///    &lt;title&gt;Bharatiya Temple of Lansing Newsletter&lt;/title&gt;
+        ///
+        ///    &lt;style&gt;
+        ///        body {
+        ///            font-family: Arial;
+        ///            width: 800px;
+        ///        }
+        ///    &lt;/style&gt;
+        ///&lt;/head&gt;
+        ///&lt;body&gt;
+        ///    &lt;div&gt;
+        ///        &lt;img src=&quot;http://lansingtemple.org/images/btl_lansing.jpg&quot; /&gt;
+        ///        &lt;div id=&quot;news-date&quot;
+        ///             style=&quot;background-color: rgba(162, 50, 4, 1);
+        ///                    color: white;
+        ///   [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string head1 {
+            get {
+                return ResourceManager.GetString("head1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap LeftJustify {
@@ -157,6 +263,26 @@ namespace TempleTemplate.Properties {
             get {
                 object obj = ResourceManager.GetObject("paragraph_numbered", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;/div&gt;
+        ///        &lt;br /&gt;
+        ///        &lt;div id=&quot;pretext&quot;&gt;.
+        /// </summary>
+        internal static string pretext1 {
+            get {
+                return ResourceManager.GetString("pretext1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;/div&gt;.
+        /// </summary>
+        internal static string pretext2 {
+            get {
+                return ResourceManager.GetString("pretext2", resourceCulture);
             }
         }
         
