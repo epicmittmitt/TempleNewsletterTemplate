@@ -16,7 +16,6 @@ C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit-console-run
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit.framework.dll
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit.util.dll
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\nunit.core.dll
-C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleNewsletterTemplate.csprojResolveAssemblyReference.cache
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleTemplate.Form1.resources
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.exe
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.pdb

@@ -1,0 +1,36 @@
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Temple Newsletter Generator.exe.config
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Temple Newsletter Generator.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Temple Newsletter Generator.pdb
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Awesomium.Core.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Awesomium.Windows.Forms.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Rtf2Html.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Rtf2Xml.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Itenso.Rtf.Parser.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Itenso.Rtf.Interpreter.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Itenso.Rtf.Converter.Html.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Itenso.Sys.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Itenso.Rtf.Converter.Xml.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\log4net.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\nunit-console-runner.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\nunit.framework.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\nunit.util.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\nunit.core.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Awesomium.Core.xml
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\Awesomium.Windows.Forms.xml
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\awesomium.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\icudt.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\avcodec-53.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\avformat-53.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\avutil-51.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\libEGL.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\libGLESv2.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\awesomium_process
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\inspector.pak
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\xinput9_1_0.dll
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Release\pdf_js.pak
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Release\TempleTemplate.Form1.resources
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Release\TempleTemplate.Form2.resources
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Release\TempleTemplate.Properties.Resources.resources
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Release\TempleNewsletterTemplate.csproj.GenerateResource.Cache
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Release\Temple Newsletter Generator.exe
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Release\Temple Newsletter Generator.pdb

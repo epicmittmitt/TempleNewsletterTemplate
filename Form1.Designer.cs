@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
 			this.previewLink = new System.Windows.Forms.LinkLabel();
@@ -138,11 +139,13 @@
 			// 
 			// closingBox
 			// 
+			this.closingBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.closingBox.Location = new System.Drawing.Point(95, 204);
 			this.closingBox.Name = "closingBox";
 			this.closingBox.Size = new System.Drawing.Size(141, 87);
 			this.closingBox.TabIndex = 11;
-			this.closingBox.Text = "";
+			this.closingBox.Text = resources.GetString("closingBox.Text");
+			this.closingBox.WordWrap = false;
 			// 
 			// eventEditor
 			// 
@@ -180,11 +183,13 @@
 			// 
 			// eventText
 			// 
+			this.eventText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.eventText.Location = new System.Drawing.Point(162, 19);
 			this.eventText.Name = "eventText";
 			this.eventText.Size = new System.Drawing.Size(358, 264);
 			this.eventText.TabIndex = 5;
 			this.eventText.Text = "";
+			this.eventText.WordWrap = false;
 			// 
 			// groupBox4
 			// 
@@ -483,6 +488,7 @@
 			// 
 			// openingBox
 			// 
+			this.openingBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.openingBox.Location = new System.Drawing.Point(95, 32);
 			this.openingBox.Name = "openingBox";
 			this.openingBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;

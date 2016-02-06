@@ -82,9 +82,11 @@ namespace TempleTemplate.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;/div&gt;
-        ///    &lt;/div&gt;
-        ///&lt;/body&gt;
-        ///&lt;/html&gt;.
+        ///        &lt;br /&gt;
+        ///        &lt;div id=&quot;footer&quot;
+        ///             style=&quot;text-align:center;&quot;&gt;
+        ///            &lt;a title=&quot;Facebook&quot;
+        ///               href=&quot;https://www.facebook.com/bharatiyatempleoflansing?ref=hl&quot;&gt;&lt;img width=&quot;48&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAlZJREFUeJztmT9vE0EQxd9uLvKfBBElBUKABCUFFQ2yCyhd0QQSUyLk8AEoQErDF6CgoImhJSCnIwUdoXAUCUVpUoQOGoQEQgbHRLF9OxTRkeO4kIabd5L3J1namx1p3r7bnbN9gMcz0phoUKs9LvyYLl1kitHA9bvvN1bu7 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string closing2 {
             get {
@@ -224,11 +226,10 @@ namespace TempleTemplate.Properties {
         ///&lt;/head&gt;
         ///&lt;body&gt;
         ///    &lt;div&gt;
-        ///        &lt;img src=&quot;http://lansingtemple.org/images/btl_lansing.jpg&quot; /&gt;
+        ///        &lt;img src=&quot;http://www.lansingtemple.org/images/btl_lansing.jpg&quot; /&gt;
         ///        &lt;div id=&quot;news-date&quot;
         ///             style=&quot;background-color: rgba(162, 50, 4, 1);
-        ///                    color: white;
-        ///   [rest of string was truncated]&quot;;.
+        ///                    color: white; [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string head1 {
             get {

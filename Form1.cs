@@ -48,7 +48,7 @@ namespace TempleTemplate
 			System.IO.File.WriteAllText(temp, generator());
 
 			List<Action> browsers = new List<Action>();
-			string[] browserStrings = { "chrome.exe", "firefox.exe", "opera.exe", "iexplore.exe" };
+			string[] browserStrings = { "chrome.exe", "firefox.exe", "opera.exe", "iexplore.exe", "explorer.exe" };
 			foreach (string s in browserStrings)
 			{
 				browsers.Add(() => System.Diagnostics.Process.Start(s, temp));
@@ -90,7 +90,7 @@ namespace TempleTemplate
 			string nl = Properties.Resources.head1
 				+ dateBox.Value.ToLongDateString()
 				+ Properties.Resources.pretext1
-				+ openingBox.Text
+				+ System.Text.RegularExpressions.Regex.Replace(openingBox.Text, @"\r\n?|\n", @"<br />" + Environment.NewLine)
 				+ Properties.Resources.pretext2;
 			foreach (ListViewItem i in eventList.Items)
 			{
@@ -102,11 +102,11 @@ namespace TempleTemplate
 					nl += i.SubItems[1].Text;
 				}
 				nl += Properties.Resources.event3
-				+ i.SubItems[2].Text
+				+ System.Text.RegularExpressions.Regex.Replace(i.SubItems[2].Text, @"\r\n?|\n", @"<br />" + Environment.NewLine)
 				+ Properties.Resources.event4;
 			}
 			nl += Properties.Resources.closing1
-				+ closingBox.Text
+				+ System.Text.RegularExpressions.Regex.Replace(closingBox.Text, @"\r\n?|\n", @"<br />" + Environment.NewLine)
 				+ Properties.Resources.closing2;
 
 			return nl;
