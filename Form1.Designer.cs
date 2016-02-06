@@ -31,6 +31,8 @@
 			this.components = new System.ComponentModel.Container();
 			this.tabControl1 = new System.Windows.Forms.TabControl();
 			this.tabPage1 = new System.Windows.Forms.TabPage();
+			this.previewLink = new System.Windows.Forms.LinkLabel();
+			this.label6 = new System.Windows.Forms.Label();
 			this.closingBox = new System.Windows.Forms.RichTextBox();
 			this.eventEditor = new System.Windows.Forms.GroupBox();
 			this.eventSave = new System.Windows.Forms.Button();
@@ -91,6 +93,8 @@
 			// 
 			// tabPage1
 			// 
+			this.tabPage1.Controls.Add(this.previewLink);
+			this.tabPage1.Controls.Add(this.label6);
 			this.tabPage1.Controls.Add(this.closingBox);
 			this.tabPage1.Controls.Add(this.eventEditor);
 			this.tabPage1.Controls.Add(this.eventList);
@@ -111,6 +115,26 @@
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Edit";
 			this.tabPage1.UseVisualStyleBackColor = true;
+			// 
+			// previewLink
+			// 
+			this.previewLink.AutoSize = true;
+			this.previewLink.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(162)))), ((int)(((byte)(50)))), ((int)(((byte)(4)))));
+			this.previewLink.Location = new System.Drawing.Point(685, 9);
+			this.previewLink.Name = "previewLink";
+			this.previewLink.Size = new System.Drawing.Size(83, 13);
+			this.previewLink.TabIndex = 13;
+			this.previewLink.TabStop = true;
+			this.previewLink.Text = "View In Browser";
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Location = new System.Drawing.Point(560, 9);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(129, 13);
+			this.label6.TabIndex = 12;
+			this.label6.Text = "Not Previewing Correctly?";
 			// 
 			// closingBox
 			// 
@@ -249,6 +273,7 @@
 			// 
 			// eventDelete
 			// 
+			this.eventDelete.Enabled = false;
 			this.eventDelete.Location = new System.Drawing.Point(191, 175);
 			this.eventDelete.Name = "eventDelete";
 			this.eventDelete.Size = new System.Drawing.Size(45, 23);
@@ -258,6 +283,7 @@
 			// 
 			// eventEdit
 			// 
+			this.eventEdit.Enabled = false;
 			this.eventEdit.Location = new System.Drawing.Point(143, 175);
 			this.eventEdit.Name = "eventEdit";
 			this.eventEdit.Size = new System.Drawing.Size(45, 23);
@@ -306,7 +332,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(59, 12);
+			this.label1.Location = new System.Drawing.Point(59, 9);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(30, 13);
 			this.label1.TabIndex = 4;
@@ -557,6 +583,8 @@
 		private System.Windows.Forms.ColumnHeader columnHeader2;
 		private System.Windows.Forms.ColumnHeader columnHeader3;
 		private Awesomium.Windows.Forms.WebControl webControl1;
+		private System.Windows.Forms.LinkLabel previewLink;
+		private System.Windows.Forms.Label label6;
 	}
 }
 

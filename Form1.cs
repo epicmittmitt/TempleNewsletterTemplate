@@ -1,22 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace TempleTemplate
 {
 	public partial class Form1 : Form
 	{
-		public string output;
+		// public string output;
 		public Form1()
 		{
 			InitializeComponent();
-			output = "";
+			// output = "";
 
 			eventAdd.Click += EventAdd_Click;
 			eventDelete.Click += EventDelete_Click;
@@ -25,33 +20,96 @@ namespace TempleTemplate
 			eventImageLocal.Click += EventImageLocal_Click;
 			eventImageWeb.Click += EventImageWeb_Click;
 			tabControl1.SelectedIndexChanged += generatePreview;
+			previewLink.LinkClicked += PreviewLink_LinkClicked;
+			eventEditor.EnabledChanged += EventEditor_EnabledChanged;
+			eventList.SelectedIndexChanged += EventList_SelectedIndexChanged;
 
 			dateBox.Value = DateTime.Now;
 		}
 
+		private void EventList_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			bool b = eventList.SelectedItems.Count == 0;
+			eventEdit.Enabled = !b;
+			eventDelete.Enabled = !b;
+		}
+
+		private void EventEditor_EnabledChanged(object sender, EventArgs e)
+		{
+			if (!eventEditor.Enabled) { return; }
+			eventAdd.Enabled = false;
+			eventEdit.Enabled = false;
+			eventDelete.Enabled = false;
+		}
+
+		private void PreviewLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			string temp = System.IO.Path.Combine(Application.StartupPath, "BToL-NL_temp.html");
+			System.IO.File.WriteAllText(temp, generator());
+
+			List<Action> browsers = new List<Action>();
+			string[] browserStrings = { "chrome.exe", "firefox.exe", "opera.exe", "iexplore.exe" };
+			foreach (string s in browserStrings)
+			{
+				browsers.Add(() => System.Diagnostics.Process.Start(s, temp));
+			}
+			foreach (Action a in browsers)
+			{
+				try
+				{
+					a();
+					break;
+				}
+				catch (Exception ex)
+				{
+					Console.WriteLine(ex.Message);
+				}
+			}
+		}
+
 		private void generatePreview(object sender, EventArgs e)
 		{
-			output = Properties.Resources.head1
+			webControl1.LoadHTML(generator());
+
+			if (tabControl1.SelectedTab == tabPage2)
+			{
+				MaximizeBox = true;
+				FormBorderStyle = FormBorderStyle.Sizable;
+			}
+			else
+			{
+				MaximizeBox = false;
+				FormBorderStyle = FormBorderStyle.FixedSingle;
+				Size = new Size(800, 450);
+				WindowState = FormWindowState.Normal;
+			}
+		}
+
+		public string generator()
+		{
+			string nl = Properties.Resources.head1
 				+ dateBox.Value.ToLongDateString()
 				+ Properties.Resources.pretext1
 				+ openingBox.Text
 				+ Properties.Resources.pretext2;
 			foreach (ListViewItem i in eventList.Items)
 			{
-				output += Properties.Resources.event1
+				nl += Properties.Resources.event1
 					+ i.Text
-					+ Properties.Resources.event2
-					+ i.SubItems[1].Text
-					+ Properties.Resources.event3
-					+ i.SubItems[2].Text
-					+ Properties.Resources.event4;
+					+ Properties.Resources.event2;
+				if (!string.IsNullOrEmpty(i.SubItems[1].Text))
+				{
+					nl += i.SubItems[1].Text;
+				}
+				nl += Properties.Resources.event3
+				+ i.SubItems[2].Text
+				+ Properties.Resources.event4;
 			}
-			output += Properties.Resources.closing1
+			nl += Properties.Resources.closing1
 				+ closingBox.Text
 				+ Properties.Resources.closing2;
-			webControl1.LoadHTML(output);
 
-			MaximizeBox = tabControl1.SelectedTab == tabPage2;
+			return nl;
 		}
 
 		private void EventImageWeb_Click(object sender, EventArgs e)
@@ -80,6 +138,7 @@ namespace TempleTemplate
 			ListViewItem l = new ListViewItem();
 			l.Text = eventTitle.Text;
 			if (!(eventImage.Tag == null || eventImage.Tag.ToString() == "")) { l.SubItems.Add(eventImage.Tag.ToString()); }
+			else { l.SubItems.Add(""); }
 			l.SubItems.Add(eventText.Text);
 
 			foreach (ListViewItem i in eventList.Items)
@@ -92,6 +151,9 @@ namespace TempleTemplate
 			eventImage.Text = "";
 			eventImage.Tag = "";
 			eventText.Text = "";
+			eventAdd.Enabled = true;
+			//eventEdit.Enabled = true;
+			//eventDelete.Enabled = true;
 
 			eventEditor.Enabled = false;
 		}
