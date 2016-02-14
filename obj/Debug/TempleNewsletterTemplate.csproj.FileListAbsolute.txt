@@ -35,3 +35,8 @@ C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\awesomium_process
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\inspector.pak
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\xinput9_1_0.dll
 C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\pdf_js.pak
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\TempleNewsletterTemplate.csprojResolveAssemblyReference.cache
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Temple Newsletter Generator.exe.manifest
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\bin\Debug\Temple Newsletter Generator.application
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.exe.manifest
+C:\Users\Sumit\Source\Repos\TempleNewsletterTemplate\obj\Debug\Temple Newsletter Generator.application
